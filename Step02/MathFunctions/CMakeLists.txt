@@ -7,7 +7,7 @@
 add_library(MathFunctions MathFunctions.cxx)
 
 # TODO 7 DONE: Create a variable USE_MYMATH using option and set default to ON
-option(USE_MYMATH "Use the hack math implementation" ON)
+option(USE_MYMATH "Use the hack math implementation" OFF)
 
 # TODO 8 DONE: If USE_MYMATH is ON, use target_compile_definitions to pass
 # USE_MYMATH as a precompiled definition to our source files

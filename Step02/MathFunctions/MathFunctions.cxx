@@ -16,7 +16,7 @@ double sqrt(double x)
     return detail::mysqrt(x);
   #else
   // Otherwise, use std::sqrt.
-    return std::sqrt;
+    return std::sqrt(x);
   #endif
 }
 }
