@@ -1,2 +1,8 @@
 // the configured options and settings for Tutorial
-// TODO 10: Define Tutorial_VERSION_MAJOR and Tutorial_VERSION_MINOR
+// TODO 10 DONE: Define Tutorial_VERSION_MAJOR and Tutorial_VERSION_MINOR
+// note to self: note the syntax here where we copy the var name inside the @@
+// I think the analog would be like "define MyConst 1"
+// maybe try it?
+#define TutorialPladd_VERSION_MAJOR @TutorialPladd_VERSION_MAJOR@
+#define TutorialPladd_VERSION_MINOR @TutorialPladd_VERSION_MINOR@
+#define MyConst 1
