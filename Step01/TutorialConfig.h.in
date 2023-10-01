@@ -5,4 +5,6 @@
 // maybe try it?
 #define TutorialPladd_VERSION_MAJOR @TutorialPladd_VERSION_MAJOR@
 #define TutorialPladd_VERSION_MINOR @TutorialPladd_VERSION_MINOR@
+
+// heck yes it works
 #define MyConst 1
